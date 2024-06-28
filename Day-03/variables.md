@@ -109,4 +109,5 @@ Whereas if you are using variables in the program as above example then whenever
 
 And the advantage of python is that you don't have to define the datatype of variable i.e. int,float,string as in some programming language you need to declare it before using it.
 That's why python is called dynamically typed programming language as you don't have to declare these complex type of syntaxing whereas languages like java,go,c are called as statically typed programming languages.
+
 Also if you forgot to update the name of ec2 instance in one of the line let say line no.600 so the task became imcmplete. So variable helps in reducing the time as well as reducing the error.
