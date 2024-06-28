@@ -1,3 +1,4 @@
+# Hardcoded Values
 num1 = 20
 num2 = 10
 
@@ -11,4 +12,21 @@ def subtraction():
 
 addition()
 subtraction()
+
+###########################################################
+
+# Input to the function
+def addition(num1,num2):
+  add = num1 + num2
+  return add
+
+def subtraction(num1,num2):
+  sub = num1 - num2
+  return sub
+
+add = addition(10,20)
+print("Addition of two numbers: " + str(add))
+sub = subtraction(15,30)
+print("Subtractiontion of two numbers: " + str(sub))
+
 
