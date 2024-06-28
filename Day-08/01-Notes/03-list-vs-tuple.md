@@ -56,3 +56,12 @@ for item in my_tuple:
 
 **Tuple:** Tuples consume less memory because they are immutable, and the interpreter can optimize memory usage.
 
+## 7. Summary
+
+Tuple is a list that cannot be resized that means you cannot add or remove the elements once the list is created hence tuples are called immutable whereas list is mutable.
+
+For example if we want to store list of students then we need to add or remove the students from the list as per requirement but if you want to store list of aws_admins.
+
+Let say there are only two admins and you stored it using the lists and uexpectadely someone modified the admin's list beacause of which the very critical information got changed.
+
+If you already know something that should not be changed if you declaring it as a list the problem would be knowingly or unknowningly if someone is modifying that then you will run into a problem because ypu already know go wth the tuple.
