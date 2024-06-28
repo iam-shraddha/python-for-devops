@@ -8,3 +8,13 @@
 7. To start writting a function you should use keyword def so that python interpreter will understand this is the definition or function in the python.
                              def function_name():
                                 function logic
+
+
+   ***Modules***
+1. Module means if you are writting a piece of code for project_1 and the same code can be used by project-2,project_3..etc just by modifying some variables.
+2. Then instead of writting it again and again you'll write module called python.py file which has lot of functions then you can use this file as a module.
+3. If someone needs all of the functions inside this module they can use all of them and if they need only some functions then they can use part of the module.
+4. So the advantage module is same as functions i.e. reusability.Because module is equals to a group of functions.
+
+
+
