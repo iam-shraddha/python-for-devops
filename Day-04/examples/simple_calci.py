@@ -1,4 +1,4 @@
-# Hardcoded Values
+# Approach_1: Hardcoded Values
 num1 = 20
 num2 = 10
 
@@ -15,7 +15,7 @@ subtraction()
 
 ###########################################################
 
-# Input to the function
+# Approach_2: Input to the function
 def addition(num1,num2):
   add = num1 + num2
   return add
