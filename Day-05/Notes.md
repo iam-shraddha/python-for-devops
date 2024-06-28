@@ -9,7 +9,7 @@
 
 ***Environment Variables***
 1. When you write a python program lot of time you need to deal with an sensitive information like passwords,API keys or API tokens,certificates etc. So you can pass these things as environment variables.
-2. The difference between env_vars and command line argument is that when you want to deal with deal with sensitive information go with env_vars and when you deal with regular information you can use ommand line arguments.
+2. The difference between env_vars and command line argument is that when you want to deal with deal with sensitive information go with env_vars and when you deal with regular information you can use command line arguments.
 
                                      export password="monu"...[terminal]
                                      os.getenv("password")... [in code]
