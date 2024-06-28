@@ -18,4 +18,19 @@
 
 
 ***Packages***
+1. Packages are collection of modules which means in your organization if your code is written in multiple python files then you can bundle it into a package.
+2. We use both modules and packageslot of times beacause the task that we want to do there are people who already written entire code for that.
+3. You can find and use these packages for python on PYPI(Python Package Index). And for installing those packages from pypl you can use the command called pip.
+
+                                 pip install boto3
+                                 pip install github
+***Virtualenv***
+1. Sometimes as a devops engineer we all use acommon machine for multiple projects and project_1(v1.2.3), project_2(v1.2.5) so if you install version for project_1 then it will not work for Project_2.
+2. To solve this problem there is a concept in python called virtualenv and this is only useful if you are using same machine for different projects.
+3. Virtualenv will do a logical seperation on your virtual machine for python packages that means if you create virtualenv for project_1 then will create virtual space where all the packages that you install will be available.
+4. When you login inside the virtual machine using a perticular command you can switch to this virtualenv. So for each project you can create virtualenv ssh to the machine switch to the virtualenv and install the required packages.
+                                pip install virtualenv
+                                python -m venv project-abc
+                                python -m venv project-xyz
+                                source project-abc/bin/activate
 
