@@ -94,3 +94,18 @@ print(f"Updated HTTPS Enabled: {is_https_enabled}")
 ```
 
 In this example, we use variables to store and manipulate configuration data for a web server. This allows us to easily update and manage the server's configuration in a DevOps context.
+
+# Usecase of variables
+Let say you have python program in your organization that has 1000 lines and in this lines you are printing name of the ec2 instance in line no. 25,90,600,700 and name of ec2 instance is ec2_sample.
+For some reason in this program the name got change from ec2_sample to ec2_example so now you have to go to the program and need to modify these perticular lines but if the name of ec2 instance is printed 30 times then you have to modify these values from ec2_sample to ec2_example 30 times.
+
+             ec2_instance_name = "ec2_sample" #declaration of variable
+             print(ec2_sample)
+             
+Whereas if you are using variables in the program as above example then whenever you need to change or modify the name of ec2 instance you have to just modify value of variable once in program and in all other places the value is autromatically updated , because instead of hardcoding the value you have used concept of variables.
+
+            ec2_instance_name = "ec2_example" #modifying value of variable
+            print(ec2_example)
+
+And the advantage of python is that you don't have to define the datatype of variable i.e. int,float,string as in some programming language you need to declare it before using it.
+That's why python is called dynamically typed programming language as you don't have to declare these complex type of syntaxing whereas languages like java,go,c are called as statically typed programming languages.
