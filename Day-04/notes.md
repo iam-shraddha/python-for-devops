@@ -29,8 +29,8 @@
 2. To solve this problem there is a concept in python called virtualenv and this is only useful if you are using same machine for different projects.
 3. Virtualenv will do a logical seperation on your virtual machine for python packages that means if you create virtualenv for project_1 then will create virtual space where all the packages that you install will be available.
 4. When you login inside the virtual machine using a perticular command you can switch to this virtualenv. So for each project you can create virtualenv ssh to the machine switch to the virtualenv and install the required packages.
+
                                 pip install virtualenv
                                 python -m venv project-abc
                                 python -m venv project-xyz
                                 source project-abc/bin/activate
-
