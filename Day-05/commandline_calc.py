@@ -17,7 +17,7 @@ num1 = float(sys.argv[1])
 operation = sys.argv[2]
 num2 = float(sys.argv[3])
 
-if operation == "addition:
+if operation == "addition":
    output = addition(num1,num2)
    print("Addition of two numbers: " + str(output))
 
@@ -30,7 +30,7 @@ elif operation == "multiplication":
    print("Multiplication of two numbers: " + str(output))
 
 else:
-   print(Please provide valid operation)
+   print("Please provide valid operation")
 
 # execution: python commandline_calc.py 10 addition 40
 #output: Addition of two numbers: 50
