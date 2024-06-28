@@ -13,3 +13,5 @@ print(len(teachers_names))       # Length function
 print(len(student_names))
 print(student_names[1] + "_" + student_names[2] )  # Concantenation
 print(numbers)
+for name in student_names:
+    print(name)
