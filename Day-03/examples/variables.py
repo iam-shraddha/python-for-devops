@@ -1,4 +1,4 @@
-#without using variables
+#Without using variables
 print(ec2_instance_sample)
 
 #By using variables
