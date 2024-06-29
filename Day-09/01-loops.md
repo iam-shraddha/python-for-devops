@@ -7,6 +7,7 @@ Loops are a fundamental concept in programming, and they allow you to perform re
 ## For Loop
 
 The "for" loop is used to iterate over a sequence (such as a list, tuple, string, or range) and execute a set of statements for each item in the sequence. The loop continues until all items in the sequence have been processed.
+Here you clearly know the definite number of how times the loop should run.
 
 **Syntax:**
 
