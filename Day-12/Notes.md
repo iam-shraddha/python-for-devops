@@ -1,0 +1,1 @@
+File operations are used when you want to read update or delete a file in such cases you use file concept in python. As if you do these things uing shellscript then for windowsystems you need to write powershell scripting a
