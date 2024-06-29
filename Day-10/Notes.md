@@ -1,6 +1,7 @@
 ## List the files from the folders provided by users
 
 Input:  User will provide list of foldder names like /abc /xyz
+
 Output: Print all the files in provided folders
 
 ***Algorithm:***
