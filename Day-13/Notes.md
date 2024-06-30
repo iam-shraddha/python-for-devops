@@ -9,3 +9,4 @@
 
 Go to vscode install aws toolkit and authenticate by using aws configure here provide access key & secret access key from the aws. Now install the boto3 module by using 'pip install boto3'.
 Go to boto3 documentation->Available services->s3 and copy that code. Then search for create s3 bucket and copy that code to your program now keep the parameter as per your requirement.Execute the program and s3 buket will be creted on aws.
+So here client = boto3.client('resource_name') this line is common syntax just add resource name that you want in the bracket so here you creating the client and using it you talk with aws api.
