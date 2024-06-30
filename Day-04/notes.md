@@ -19,7 +19,7 @@
 
 ***Packages***
 - Packages are collection of modules which means in your organization if your code is written in multiple python files then you can bundle it into a package.
-- We use both modules and packageslot of times beacause the task that we want to do there are people who already written entire code for that.
+- We use both modules and packages lot of times beacause the task that we want to do there are people who already written entire code for that.
 - You can find and use these packages for python on PYPI(Python Package Index). And for installing those packages from pypl you can use the command called pip.
 
                                  pip install boto3
