@@ -1,3 +1,4 @@
+## File Operations
 File operations are used when you want to read update or delete a file in such cases you use file concept in python. If you do these things uing shellscript then for windows servers shellscripts will not to work you need to write powershell scripts and you have to continuously maintain both of them.
 So to avoid such things as a devops engineer you can use file operation in python. There are 2 operations wich you mostly use i.e. read and write operation for his you have inbuilt fuction called open.
                                                                          
@@ -8,5 +9,9 @@ So to avoid such things as a devops engineer you can use file operation in pytho
                                                 with open("/path/file","w"):
                                                   -------
                                                   -------
-
-                                                                         
+## Algorithm
+1. OPen the file in read mode
+2. Store all the things in variable or list
+3. Open the file in write mode
+4. Update the maximum connection line(if)
+                                                                        
