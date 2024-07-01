@@ -13,6 +13,14 @@
 3. Write the python script
 4. Execution
 
+***Steps to get list of projects*** : 
+- Go to Atlassian link then signin by using your Email: Create account-->Jira Software-->Email & jir_site name-->Scrum Project-->Project_name & key-->Done.
+- Once you have your dashboard firstcreate your API_Token: Go to profile-->Manage your account-->Security tab-->Create & manage api tokens. Now you need to understand how to talk to the jira api like which module you have to use, on which url you should accessthis jira etc for this you can refer jira api documentation.
+- To Get list of the projects search for: Projects-->Get all projects-->Copy code for python-->Paste it on vscode. Now in that code replace the atlassian url with your own then in auth provide your email also provide api token that you have created.
+- Now just run the this python file you'll get the list of projects that you have on your jira dashboard. For each project it will give all the details whichare available in the UI.
+- So you can copy that entire output go to online json formatter and beautify it and you'll find you have two elements. Now want to just print the project name of perticular element by using index of the elements [index]["key"]. If you want to print all the project names that you have use a simple for loop.
 
-Go to Atlassian link then signin by using your Email: Create account-->Jira Software-->Email & jir_site name-->Scrum Project-->Project_name & key-->Done
-Once you have your dashboard firstcreate your API_Token: Go to profile-->Manage your account-->Security tab-->Create & manage api tokens. Now you need to understand how to talk to the jira api like which module you have to use, on which url you should accessthis jira etc for this you can refer jira api documentation.
+***Explaination of the code*** :
+- Here we are trying to use request module whic is used to make an api calls. When we try to do automation ike aws instead of requests we use boto3 module but jira is not as stable as aws that's why here we are using standard module i.e. request module.
+- Now from imported package we are using only perticular module i.e. HTTPBasicAuth so you want to authenticate with jira also here we also used json module.And we took url, api token and we performed the request as shown in the documentation.
+
