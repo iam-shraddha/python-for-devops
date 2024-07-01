@@ -25,6 +25,6 @@
 - So just remove the non-mandatory fields and only keep the mandatory fields like Project,Issue type,Summary,Reporter(jira know as we use Api token). Issue type we used is story to get it's id click on this (...) icon-->configure board-->issue type-->story-->id(in url).
 - Now execute this scripts and if you check on your jira dasboard you will notice a new ticket has been created.
 
-  ***Explaination of the code*** :
+***Explaination of the code*** :
 - Here we are trying to use request module which is used to make an api calls. When we try to do automation ike aws instead of requests we use boto3 module but jira is not as stable as aws that's why here we are using standard module i.e. request module.
 - Now from imported package we are using only perticular module i.e. HTTPBasicAuth so you want to authenticate with jira also here we also used json module. And we took url, api token and we performed the request as shown in the documentation.
