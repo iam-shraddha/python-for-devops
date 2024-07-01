@@ -15,4 +15,4 @@
 
 
 Go to Atlassian link then signin by using your Email: Create account-->Jira Software-->Email & jir_site name-->Scrum Project-->Project_name & key-->Done
-Once you have your dashboard firstcreate your API_Token: Go to profile-->Manage your account-->Security tab-->Create & manage api tokens-->
+Once you have your dashboard firstcreate your API_Token: Go to profile-->Manage your account-->Security tab-->Create & manage api tokens. Now you need to understand how to talk to the jira api like which module you have to use, on which url you should accessthis jira etc for this you can refer jira api documentation.
