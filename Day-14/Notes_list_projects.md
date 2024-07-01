@@ -22,5 +22,5 @@
 
 ***Explaination of the code*** :
 - Here we are trying to use request module whic is used to make an api calls. When we try to do automation ike aws instead of requests we use boto3 module but jira is not as stable as aws that's why here we are using standard module i.e. request module.
-- Now from imported package we are using only perticular module i.e. HTTPBasicAuth so you want to authenticate with jira also here we also used json module.And we took url, api token and we performed the request as shown in the documentation.
+- Now from imported package we are using only perticular module i.e. HTTPBasicAuth so you want to authenticate with jira also here we also used json module. And we took url, api token and we performed the request as shown in the documentation.
 
