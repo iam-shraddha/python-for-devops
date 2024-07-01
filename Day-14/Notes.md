@@ -20,8 +20,6 @@
 - Now just run the this python file you'll get the list of projects that you have on your jira dashboard. For each project it will give all the details whichare available in the UI.
 - So you can copy that entire output go to online json formatter and beautify it and you'll find you have two elements. Now want to just print the project name of perticular element by using index of the elements [index]["key"]. If you want to print all the project names that you have use a simple for loop.
 
-
-
 ***2.Steps to create jira request*** : 
 - Go to jira dcumentation search for issue then goto create issue and copy the code and paste this to your file. When you create issue manuaaly on jira some of fields are mandatory & some are not.
 - So just remove the non-mandatory fields and only keep the mandatory fields like Project,Issue type,Summary,Reporter(jira know as we use Api token). Issue type we used is story to get it's id click on this (...) icon-->configure board-->issue type-->story-->id(in url).
