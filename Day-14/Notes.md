@@ -12,3 +12,7 @@
 2. Understand jira api calls
 3. Write the python script
 4. Execution
+
+
+Go to Atlassian link then signin by using your Email: Create account-->Jira Software-->Email & jir_site name-->Scrum Project-->Project_name & key-->Done
+Once you have your dashboard firstcreate your API_Token: Go to profile-->Manage your account-->Security tab-->Create & manage api tokens-->
